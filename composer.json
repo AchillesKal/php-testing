@@ -1,0 +1,23 @@
+{
+    "name": "achil/phptest",
+    "authors": [
+        {
+            "name": "AchillesKal",
+            "email": "achilleas90gr@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "App\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "8"
+    }
+}
