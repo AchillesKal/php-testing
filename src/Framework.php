@@ -5,6 +5,6 @@ namespace App;
 class Framework
 {
     public function run(): string{
-        return "worksa";
+        return "works";
     }
 }
